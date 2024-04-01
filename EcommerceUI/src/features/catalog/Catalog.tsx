@@ -18,7 +18,7 @@ export default function Catalog() {
 
   return (
     <>
-    {loading ? <LoadingComponent message="Loading Products..."/> :<ProductList products={products} />}
+    {loading ? <LoadingComponent message="Loading Products..."/> : <ProductList products={products} />}
     </>
   );
 }
